@@ -102,7 +102,7 @@ class BeatmapsControllerTest extends TestCase
     {
         $this->json('GET', route('beatmaps.scores', $this->beatmap), [
             'mode' => 'nope',
-        ])->assertStatus(404);
+        ])->assertStatus(422);
     }
 
     /**
