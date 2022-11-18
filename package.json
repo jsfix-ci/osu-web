@@ -54,7 +54,7 @@
     "jquery-ui": "^1.13.2",
     "jquery-ujs": "^1.2.2",
     "jquery.scrollto": "^2.1.2",
-    "js-cookie": "^2.1.2",
+    "js-cookie": "^3.0.1",
     "lang.js": "^1.1.14",
     "layzr.js": "^2.2.2",
     "less": "^3.9.0",

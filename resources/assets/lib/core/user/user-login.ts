@@ -122,7 +122,7 @@ export default class UserLogin {
   };
 
   private refreshToken = () => {
-    const token = Cookies.get('XSRF-TOKEN') ?? null;
+    const token = JSON.parse(Cookies.get('XSRF-TOKEN')) ?? null;
     $('[name="_token"]').attr('value', token);
     $('[name="csrf-token"]').attr('content', token);
   };
